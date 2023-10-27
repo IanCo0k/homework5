@@ -1,0 +1,27 @@
+/* External CSS for body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Add additional CSS as needed */
+.thumbnail-table {
+    border-collapse: collapse;
+}
+
+.thumbnail-table td {
+    border: 1px solid #ccc;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+/* CSS for images */
+img {
+    max-width: 50%; /* Ensures images don't exceed the width of their container */
+    height: auto;    /* Automatically adjust the height to maintain aspect ratio */
+    display: block;  /* Remove any extra space below the images */
+    border-radius: 10px; /* Adds rounded borders to the images */
+}
